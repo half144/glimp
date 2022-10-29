@@ -4,6 +4,7 @@ import "./style.css"
 
 const BannerMovie = ({ id, isFullScreen }) => {
     const { data, isLoading } = useTmdb(id)
+    console.log(id)
 
     return (
         data ? (
