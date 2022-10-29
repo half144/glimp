@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home">
             <div className="bannerArea">
                 <Navbar />
-                <BannerMovie id={bannerMovie.id} />
+                <BannerMovie id={bannerMovie?.id} />
             </div>
             <div className="container">
                 <div className="movieRowArea">
