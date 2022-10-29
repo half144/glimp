@@ -6,7 +6,7 @@ const EpisodeComponent = ({ episode }) => {
     return (
         <Link data-aos="fade-up" className="episodeComponent" to={`/serie/${episode.id}/watch`}>
             <div className="posterEpisode">
-                <img src={`https://image.tmdb.org/t/p/original${episode.still_path}`} loading="lazy" alt="" />
+                <img src={`https://image.tmdb.org/t/p/original${episode.still_path}`} alt="" />
             </div>
             <div className="episodeInfo">
                 <h2>{episode.name}</h2>
