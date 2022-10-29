@@ -102,7 +102,7 @@ const MoviesProvider = ({ children }) => {
 
     useEffect(() => {
         if (movieGroups.length > 1) {
-            const randomMovie = movieGroups[0].items[Math.floor(Math.random() * 80)];
+            const randomMovie = movieGroups[0].items[Math.floor(Math.random() * 40)];
             setBannerMovie(randomMovie);
         }
     }, [movieGroups]);
