@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 
 const useGetSeries = () => {
-  const API_BASE = "https://glimpmovies.herokuapp.com/";
+  const API_BASE = "https://glimpmovies.herokuapp.com";
 
   const getSeries = async () => {
     try {
