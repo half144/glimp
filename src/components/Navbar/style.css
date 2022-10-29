@@ -1,0 +1,43 @@
+nav {
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s;
+}
+#lateralNav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+  width: 100%;
+}
+#lateralNav li {
+  height: 50px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  transition: 0.2s;
+  font-weight: bold;
+  border-left: 2px solid #101010;
+}
+#lateralNav li:hover {
+  background-color: #030303;
+  border-left: 2px solid rgb(255, 0, 0);
+}
+.navIcon {
+  position: absolute;
+  left: 20px;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #lateralNav li {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+}

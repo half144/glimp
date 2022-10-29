@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(34, 34, 34); /* color of the tracking area */
+}
+textarea::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #ff5e00;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+}

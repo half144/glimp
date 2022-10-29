@@ -1,0 +1,67 @@
+.movieRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+.moviesArea {
+  display: flex;
+}
+.title {
+  font-size: 0.6em;
+  margin-left: 50px;
+}
+.movies {
+  transition: 1.2s;
+  display: flex;
+  gap: 8px;
+  margin-left: 50px;
+}
+.arrowLeft {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 215px;
+  margin-top: 2.3em;
+  left: 0px;
+  z-index: 11;
+  transition: 0.4s;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.738);
+}
+.arrowRight {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 215px;
+  margin-top: 2.3em;
+  right: 0px;
+  cursor: pointer;
+  z-index: 11;
+  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.738);
+}
+
+.movieRow:hover .arrowLeft,
+.movieRow:hover .arrowRight {
+  opacity: 1;
+}
+.arrowRight:hover,
+.arrowLeft:hover {
+  background-color: rgba(0, 0, 0, 0.885);
+}
+
+@media (max-width: 400px) {
+  .arrowLeft,
+  .arrowRight {
+    margin-top: 2.2em;
+    height: 175px;
+  }
+}

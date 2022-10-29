@@ -1,0 +1,22 @@
+.cardMovie {
+  cursor: pointer;
+  transition: 0.1s;
+  height: 215px;
+  width: 150px;
+}
+.cardMovie img {
+  width: 100%;
+  transition: 0.2s;
+  height: 100%;
+}
+
+.cardMovie img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 400px) {
+  .cardMovie {
+    width: 125px;
+    height: 175px;
+  }
+}

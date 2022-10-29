@@ -1,0 +1,11 @@
+.searchArea {
+  min-height: 100vh;
+}
+.moviesBySearchArea {
+  display: flex;
+  margin-top: 2em;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding-bottom: 2em;
+}

@@ -1,0 +1,47 @@
+.episodeComponent {
+  background-color: #141414;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+  width: 60%;
+  transition: 0.2s;
+}
+.posterEpisode {
+  width: 200px;
+}
+.posterEpisode img {
+  width: 100%;
+  border-radius: 20px;
+}
+.episodeInfo {
+  height: 80%;
+  width: 50%;
+  overflow: hidden;
+}
+.episodeInfo h2 {
+  font-size: 0.9em;
+}
+.episodeInfo p {
+  font-size: 0.8em;
+}
+.episodeComponent:hover {
+  background-color: rgb(28, 28, 28);
+}
+
+@media (max-width: 720px) {
+  .episodeComponent {
+    width: 100%;
+  }
+  .posterEpisode {
+    width: 150px;
+  }
+  .episodeInfo h2 {
+    font-size: 0.8em;
+  }
+  .episodeComponent p {
+    font-size: 0.7em;
+  }
+}

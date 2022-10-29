@@ -1,0 +1,13 @@
+.seriesArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+.headerAreaSerie {
+  margin-top: 2em;
+  margin-bottom: 1.4em;
+  margin-left: 3em;
+  font-size: 0.8em;
+}

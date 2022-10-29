@@ -1,0 +1,81 @@
+.serieDetailsSk {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3em;
+  height: 54vh;
+}
+.posterSk {
+  width: 30vw;
+  background-color: #181818;
+  height: 220px;
+  border-radius: 20px;
+}
+.serieNameSk {
+  height: 30px;
+  border-radius: 8px;
+  background-color: #181818;
+  width: 200px;
+}
+.serieResumeSk {
+  background-color: #181818;
+  border-radius: 8px;
+  height: 20px;
+  width: 80%;
+}
+.epsSk {
+  background-color: #181818;
+  border-radius: 8px;
+  height: 20px;
+  width: 90px;
+}
+.serieInfoSk {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.numberEps {
+  display: flex;
+  gap: 10px;
+}
+.numberEps p {
+  color: #999999;
+}
+.epsArea {
+  width: 100%;
+}
+#seasonNum {
+  background-color: black;
+  padding: 0.5em;
+  outline: none;
+}
+.episodes {
+  display: flex;
+  margin-top: 1em;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 8em;
+}
+
+.animate {
+  animation: skeleton 2s ease infinite alternate none;
+}
+
+@media (max-width: 600px) {
+  .serieDetailsSk {
+    padding-top: 0;
+    flex-direction: column;
+    height: 60vh;
+    gap: 2px;
+    justify-content: space-evenly;
+  }
+  .serieInfoSk {
+    width: 90%;
+  }
+  .posterSk {
+    width: 70%;
+    height: 160px;
+  }
+}

@@ -1,0 +1,19 @@
+.details {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+}
+
+.bannerAreaDetails {
+  width: 80%;
+  height: 80%;
+}
+
+@media (max-width: 600px) {
+  .bannerAreaDetails {
+    width: 100%;
+    height: 100%;
+  }
+}

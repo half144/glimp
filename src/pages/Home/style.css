@@ -1,0 +1,11 @@
+.bannerArea {
+  display: flex;
+}
+.movieRowArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container {
+  margin-top: 20px;
+}
