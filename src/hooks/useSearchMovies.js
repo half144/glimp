@@ -18,7 +18,7 @@ const useSearchMovies = (q) => {
         const searchResults = data.filter((movie) =>
           movie.name.includes(String(q).toLowerCase())
         );
-        setMovies(searchResults);
+        setMovies(searchResults.slice(0, 25));
       });
     }
   }, [q]);
