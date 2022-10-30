@@ -8,7 +8,7 @@ const BannerMovie = ({ id, isFullScreen }) => {
     return (
         data ? (
             <div className="bannerMovie" style={{
-                "backgroundImage": `url(https://image.tmdb.org/t/p/w500${data.backdrop_path})`,
+                "backgroundImage": `url(https://image.tmdb.org/t/p/original${data.backdrop_path})`,
                 "height": isFullScreen ? "100%" : "450px"
             }}>
                 <div className="infoMovie">
