@@ -3,7 +3,7 @@ import { useQuery } from "react-query";
 
 const useSearchMovies = (q) => {
   const [movies, setMovies] = useState();
-  const API_BASE = "https://glimpmovies.herokuapp.com/getall";
+  const API_BASE = "https://glimpmoviesback-production.up.railway.app/getall";
 
   const fetchAll = async () => {
     const res = await fetch(API_BASE);
