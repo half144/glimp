@@ -19,7 +19,7 @@ const reducer = (state, action) => {
 const MoviesProvider = ({ children }) => {
     const [movieGroups, dispatch] = useReducer(reducer, initialState);
     const [bannerMovie, setBannerMovie] = useState({});
-    const API_BASE = "https://glimpmovies.herokuapp.com";
+    const API_BASE = "https://glimpmoviesback-production.up.railway.app";
 
     useEffect(() => {
         const fetchMovies = async () => {
