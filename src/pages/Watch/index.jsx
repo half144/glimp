@@ -6,7 +6,7 @@ const Watch = () => {
 
     return (
         <div className="movie">
-            <iframe data-aos="zoom-in" src={`https://embedder.net/e/${id}`} width="100%" allowFullScreen="allowFullScreen" height="100%" frameBorder="0" />
+            <iframe data-aos="zoom-in" src={`https://embedder.net/e/${id}`} sandbox="allow-same-origin allow-scripts" width="100%" allowFullScreen="allowFullScreen" height="100%" frameBorder="0" />
         </div>
     )
 }
